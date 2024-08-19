@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+}
+
+#div1 {
+    background-image: url(WhatsApp\ Image\ 2024-08-19\ at\ 9.34.18\ PM.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+    width: 1365px;
+    filter: hue-rotate(270deg);
+    filter: invert(100%);
+    filter: opacity(30%);
+    position: relative;
+}
+
+#head {
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    font-family: sans-serif;
+    font-size: 80px;
+    color: rgb(218, 154, 36);
+}
+
+#head1 {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    font-family: sans-serif;
+    font-size: 80px;
+    color: rgb(218, 139, 36);
+}
+
+p {
+    position: absolute;
+    top: 450px;
+    left: 550px;
+    color: black;
+}
+
+input {
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    color: black;
+    border: 0px;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color:  rgb(245, 245, 111);
+}
